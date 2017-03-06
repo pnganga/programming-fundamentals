@@ -1,8 +1,8 @@
 function dataTypeCheck(a) {
 
-    if (a === +a && a % 1 === 0 ) {
+    if (a === +a && a % 1 === 0) {
         return (a / 2);
-    } else if (a === +a && a % 1 !== 0 ) {
+    } else if (a === +a && a % 1 !== 0) {
         return a * 2;
     } else
     if (typeof a === "string" && isNaN(Number(a)) === false) {
@@ -17,5 +17,3 @@ function dataTypeCheck(a) {
         return false;
     }
 }
-
-
