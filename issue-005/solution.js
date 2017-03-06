@@ -1,4 +1,10 @@
-// implement your solution here
-function hello() {
-
+function hello(person) {
+    switch (person) {
+        case undefined:
+            return 'Hello world!';
+            break;
+        case person:
+            return 'Hello ' + person + '!';
+            break;
+    }
 }
