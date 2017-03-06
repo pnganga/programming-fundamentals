@@ -1,7 +1,6 @@
 function dataTypeCheck(a) {
-   
-    if (a === +a && a % 1 === 0 ) {
 
+    if (a === +a && a % 1 === 0 ) {
         return (a / 2);
     } else if (a === +a && a % 1 !== 0 ) {
         return a * 2;
@@ -17,8 +16,6 @@ function dataTypeCheck(a) {
     } else if (a === undefined) {
         return false;
     }
-
-
 }
 
 
